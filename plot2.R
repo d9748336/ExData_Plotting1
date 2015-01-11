@@ -12,5 +12,5 @@ data$Date <- NULL
 par(mfrow = c(1, 1))
 plot(data$DateTime, data$Global_active_power, type = "l", ylab = "Global Active Power (kilowatts)", xlab = "", cex.lab = 0.8,  cex.axis = 0.8, cex.main = 0.8)
 png(file = "plot2.png", width = 480, height = 480 )
-plot(data$DateTime, data$Global_active_power, type = "l", ylab = "Global Active Power (kilowatts)", xlab = "", cex.lab = 0.8,  cex.axis = 0.8, cex.main = 0.8)
+plot(data$DateTime, data$Global_active_power, type = "l", ylab = "Global Active Power (kilowatts)", xlab = "", cex.lab = 0.9,  cex.axis = 0.9, cex.main = 0.9)
 dev.off()
